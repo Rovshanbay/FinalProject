@@ -1,0 +1,809 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#kontakt {
+    padding: 20px 0;
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+
+        .elaqe {
+            display: flex;
+            gap: 20px;
+
+            .phone {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                }
+            }
+
+            .email {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                }
+
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+
+        .sosialsebeke {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            i {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+#kontakt2 {
+    padding: 30px 0;
+    .contack2 {
+        display: flex;
+        justify-content: space-between;
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .logo {
+                width: 20%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            nav {
+                display: flex;
+                gap: 30px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Marcellus', serif;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .login-section {
+            display: flex;
+            gap: 20px;
+
+            .login {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Marcellus', serif;
+                    font-size: 16px;
+                }
+            }
+
+            .icon {
+                display: flex;
+                gap: 20px;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+#slidersection {
+    .slider {
+        .green {
+            background-image: url(/assest/photos/slider\ shekil1.jpeg);
+            background-size: cover;
+            background-position: center;
+            padding: 200px 0;
+            overflow: hidden;
+            position: relative;
+            
+            .greencontent{
+                overflow: hidden;
+                text-align: center;
+
+                h2 {
+                    font-family: 'Marcellus', serif;
+                    font-size: 60px;
+                    color: #fff;
+                }
+
+                p {
+                    font-family: 'Marcellus', serif;
+                    font-size: 20px;
+                    color: #fff;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: 'Marcellus', serif;
+                    font-size: 15px;
+                    color: #fff;
+                    padding: 12px 40px;
+                    border: 2px solid white;
+                    display: inline-block;
+                    margin-top: 30px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: #c0a483;
+                        border-color: #c0a483;
+                    }
+                }
+            }
+            .henkel {
+                position: absolute;
+                display: inline-block;
+                top: 18%;
+                left: 0;
+            }
+
+            .glass {
+                position: absolute;
+                bottom: 40px;
+                right: 20%;
+                z-index: 22;
+            }
+
+            .chapellet {
+                position: absolute;
+                top: 40%;
+                right: 10%;
+                z-index: 22;
+            }
+        }
+
+        .wine {
+            background-image: url(/assest/photos/slider\ shekil2.jpeg.jpeg);
+            background-size: cover;
+            background-position: center;
+            padding: 200px 0;
+            overflow: hidden;
+            position: relative;
+
+            .winecontent{
+                text-align: center;
+                overflow: hidden;
+
+                h2 {
+                    font-family: 'Marcellus', serif;
+                    font-size: 60px;
+                    color: #fff;
+                }
+
+                p {
+                    font-family: 'Marcellus', serif;
+                    font-size: 20px;
+                    color: #fff;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: 'Marcellus', serif;
+                    font-size: 15px;
+                    color: #fff;
+                    padding: 12px 40px;
+                    border: 2px solid white;
+                    display: inline-block;
+                    margin-top: 30px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: #c0a483;
+                        border-color: #c0a483;
+                    }
+                }
+            }
+
+            .vino {
+                position: absolute;
+                left: 15%;
+                top: 35%;
+                width: 7%;
+            }
+
+            .vino2 {
+                position: absolute;
+                right: 15%;
+                top: 10%;
+                width: 12%;
+            }
+
+            .vino3 {
+                position: absolute;
+                right: 9%;
+                bottom: 8%;
+            }
+        }
+    }
+}
+
+
+.slick-next {
+    right: 30px;
+}
+
+.slick-prev {
+    left: 30px;
+    z-index: 1;
+}
+
+#category {
+    padding: 20px;
+
+    .shop {
+        margin-top: 10px;
+        padding-top: 10px;
+
+        p {
+            font-size: 24px;
+            text-align: center;
+
+            span {
+                color: #c0a483;
+            }
+        }
+    }
+}
+
+#caxir {
+    .card {
+        img {
+            position: relative;
+            transition: 0.5s;
+            &:hover{
+                transition: 0.5s;
+                filter: grayscale(100%);
+                cursor: pointer;
+            }
+        }
+
+        .text1 {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            color: #000;
+            right: 20px;
+            left: 20px;
+            bottom: 20px;
+            font-family: 'Marcellus', serif;
+            font-size: 14px;
+            background: #fff;
+        }
+    }
+}
+
+#visne {
+    background-image: url(/assest/photos/uzum.webp);
+    padding: 40px;
+    margin-top: 5rem;
+
+    .slider-all {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .prodtext {
+            font-size: 24px;
+
+            p {
+                color: #000;
+            }
+
+            span {
+                color: #c0a483;
+            }
+        }
+    }
+
+    .slider2 {
+        .box {
+            margin-right: 20px;
+
+            .caxirlar {
+                cursor: pointer;
+
+                &:hover {
+                    .bir {
+                        display: none;
+                    }
+
+                    .iki {
+                        display: block;
+                    }
+                }
+
+                .bir {
+                    display: block;
+                    width: 100%;
+                }
+
+                .iki {
+                    display: none;
+                    width: 100%;
+                }
+            }
+
+            .info {
+                text-align: center;
+
+                .altyazi {
+                    i {
+                        color: red;
+                    }
+
+                    span {
+                        color: #a3a3a3;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .price {
+                    .liner {
+                        text-decoration: line-through;
+                        color: #a3a3a3;
+                    }
+
+                    span {
+                        color: #c0a483;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#section3 {
+    margin-top: 45px;
+
+    .section-all {
+        background-image: url(/assest/photos/banner8.webp);
+        background-size: cover;
+        background-position: center;
+        padding: 2.5rem;
+
+        .endirim {
+            text-align: center;
+
+            .wines {
+                font-size: 34px;
+
+                p {
+                    color: #fff;
+                }
+
+                span {
+                    color: #c0a483;
+                }
+            }
+
+            .button {
+                a {
+                    background-color: #a12626;
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 7px 30px;
+                    border-radius: 5px;
+
+                    &:hover {
+                        background-color: #c0a483;
+                        padding: 7px 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#visne2 {
+    padding: 40px;
+    margin-top: 1rem;
+
+    .slider-all {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .prodtext {
+            font-size: 24px;
+
+            p {
+                color: #000;
+            }
+
+            span {
+                color: #c0a483;
+            }
+        }
+    }
+
+    .slider3 {
+        .box {
+            margin-right: 20px;
+
+            .caxirlar {
+                border: 1px solid #e3e3e3;
+                cursor: pointer;
+
+                &:hover {
+                    .bir {
+                        display: none;
+                    }
+
+                    .iki {
+                        display: block;
+                    }
+                }
+
+                .bir {
+                    display: block;
+                    width: 100%;
+                }
+
+                .iki {
+                    display: none;
+                    width: 100%;
+                }
+            }
+
+            .info {
+                text-align: center;
+
+                .altyazi {
+                    i {
+                        color: red;
+                    }
+
+                    span {
+                        color: #a3a3a3;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .price {
+                    .liner {
+                        text-decoration: line-through;
+                        color: #a3a3a3;
+                    }
+
+                    span {
+                        color: #c0a483;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#qirmizibox {
+    .box-all {
+        text-align: center;
+        padding: 100px 0 50px;
+        background-color: #882424;
+
+        .box {
+            margin: 20px 0;
+            .qirmizi-yazi {
+                margin-top: 40px;
+                line-height: 30px;
+
+                span {
+                    font-family: "Marcellus", Sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    color: #fff;
+
+                }
+
+                p {
+                    color: #FFFFFF;
+                    font-family: Open Sans, sans-serif;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    text-align: center;
+                }
+            }
+
+            .svg {
+                display: inline;
+                border: 1px solid white;
+                font-size: 42px;
+                padding: 30px;
+                text-align: center;
+                border-radius: 50%;
+                fill: white;
+            }
+        }
+    }
+}
+
+#visne3 {
+    padding: 40px;
+    margin-top: 1rem;
+
+    .slider-all {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .prodtext {
+            font-size: 24px;
+
+            p {
+                color: #000;
+            }
+
+            span {
+                color: #c0a483;
+            }
+        }
+    }
+
+    .slider4 {
+        .box {
+            margin-right: 20px;
+
+            .caxirlar {
+                border: 1px solid #e3e3e3;
+                cursor: pointer;
+
+                &:hover {
+                    .bir {
+                        display: none;
+                    }
+
+                    .iki {
+                        display: block;
+                    }
+                }
+
+                .bir {
+                    display: block;
+                    width: 100%;
+                }
+
+                .iki {
+                    display: none;
+                    width: 100%;
+                }
+            }
+
+            .info {
+                text-align: center;
+
+                .altyazi {
+                    i {
+                        color: red;
+                    }
+
+                    span {
+                        color: #a3a3a3;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .price {
+                    .liner {
+                        text-decoration: line-through;
+                        color: #a3a3a3;
+                    }
+
+                    span {
+                        color: #c0a483;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#elektron {
+    .elektron-all {
+        background-image: url(/assest/photos/OUR\ NEWLETTER.webp);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 0;
+        overflow: hidden;
+        position: relative;
+        .letter{
+            text-align: center;
+            i{
+                color: #fff;
+                font-size: 52px;
+            }
+            h2{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+        }
+        .poct{
+            text-align: center;
+            display: block;
+            input{
+                background: transparent;
+                outline: none;
+                border: 0;
+                border-bottom: 2px solid #fff;
+                width: 25%;
+                margin: 30px;
+            }
+            button{
+                background: transparent;
+                outline: none;
+                font-size: 20px;
+                border: 0;
+                width:5%;
+                color: #fff;
+                border-bottom: 2px solid #fff;
+                &:hover{
+                    color: #c0a483;
+                    border-bottom: 2px solid #c0a483;
+                }
+            }
+        }
+    }
+}
+
+#brand{
+    margin-top: 40px;
+    .top{
+        p{
+            font-size: 24px;
+            text-align: center;
+        }
+        span{
+            color: #c0a483;
+        }
+    }
+}
+
+#top-slider{
+    .top-slider-all{
+        .brendler{
+            display: flex;
+            align-items: center;
+            height: 200px;
+            border: 1px solid #e3e3e3;
+            img{
+                width: 40%;
+                margin: auto;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    #footer{
+        .pufik1{
+            .pufik2{
+                padding: 30px;
+                .pufik3{
+                    h6{
+                        color: #000;
+                        font-size: 16px;
+                    }
+                    p{
+                        span{
+                            color: #000;
+                            font-weight: 500;
+                        }
+                    }
+                    i{
+                        color: #000;
+                        border: 15px solid #fff;
+                        border-radius: 30px;
+                    }
+                }
+                .pufik4{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .pufik5{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .pufik6{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#button {
+    display: inline-block;
+    background-color: #c0a483;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    i{
+        text-align: center;
+        color: #fff;
+        margin: 17px 17px;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #c0a483;
+        &:active {
+            background-color: #c0a483;
+          }
+    }
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}

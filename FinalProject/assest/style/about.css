@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header #kontakt2 {
+  position: fixed;
+  padding: 30px 0;
+  width: 100%;
+}
+header #kontakt2 .contack2 {
+  display: flex;
+  justify-content: space-between;
+}
+header #kontakt2 .contack2 .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header #kontakt2 .contack2 .logo-section .logo {
+  width: 20%;
+}
+header #kontakt2 .contack2 .logo-section .logo img {
+  width: 100%;
+}
+header #kontakt2 .contack2 .logo-section nav {
+  display: flex;
+  gap: 30px;
+}
+header #kontakt2 .contack2 .logo-section nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+header #kontakt2 .contack2 .login-section {
+  display: flex;
+  gap: 20px;
+}
+header #kontakt2 .contack2 .login-section .login a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+header #kontakt2 .contack2 .login-section .icon {
+  display: flex;
+  gap: 20px;
+}
+header #kontakt2 .contack2 .login-section .icon i {
+  font-size: 20px;
+  color: #fff;
+}
+
+#sekil {
+  background-image: url(/assest/photos/about.webp);
+  background-size: cover;
+  padding: 220px 0;
+  background-attachment: fixed;
+  text-align: center;
+}
+#sekil .yazilar .h21 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 25px;
+  letter-spacing: 4px;
+}
+#sekil .yazilar .h22 {
+  font-size: 60px;
+  color: #fff;
+}
+#sekil .yazilar i {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 30px;
+}
+
+#black-elk {
+  background-image: url(/assest/photos/uzum.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+}
+#black-elk .elk-all {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#black-elk .elk-all .lifestory h4 {
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+#black-elk .elk-all .lifestory h3 {
+  font-size: 60px;
+  color: #000;
+  font-weight: 400;
+}
+#black-elk .elk-all .lifestory p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #868686;
+}
+
+#qirmizibox .box-all {
+  text-align: center;
+  padding: 40px 10px 0px 0px;
+  margin-top: 30px;
+  background-image: url(/assest/photos/qirmizisekil.webp);
+}
+#qirmizibox .box-all .box {
+  margin: 20px 0;
+}
+#qirmizibox .box-all .box .qirmizi-yazi {
+  margin-top: 40px;
+  line-height: 30px;
+}
+#qirmizibox .box-all .box .qirmizi-yazi span {
+  font-family: "Marcellus", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+#qirmizibox .box-all .box .qirmizi-yazi p {
+  color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+#qirmizibox .box-all .box .svg {
+  display: inline;
+  border: 1px solid white;
+  font-size: 42px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 50%;
+  fill: white;
+}
+
+#happy {
+  padding: 100px;
+  background-color: #FAF4EE;
+  margin-top: 40px;
+}
+#happy .slick-next {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#happy .slick-next:before {
+  font-size: 25px;
+  content: "\f054";
+  font-family: FontAwesome;
+  color: #000;
+  z-index: 222;
+  opacity: 0;
+  transition: 0.5s;
+}
+#happy .slick-prev {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#happy .slick-prev:before {
+  font-size: 25px;
+  content: "\f053";
+  font-family: FontAwesome;
+  color: #000;
+  z-index: 222;
+  opacity: 0;
+  transition: 0.5s;
+}
+#happy .happy-kantent {
+  padding: 0 0 50px;
+}
+#happy .happy-kantent p {
+  text-align: center;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#happy .happy-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#happy .happy-slider .predmet {
+  text-align: center;
+}
+#happy .happy-slider .predmet .predmet-kantent .zvezda i {
+  color: #ffc107;
+  font-size: 13px;
+}
+#happy .happy-slider .predmet .predmet-kantent h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 7px 0 12px;
+}
+#happy .happy-slider .predmet .predmet-kantent p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #868686;
+  width: 80%;
+  display: inline-block;
+}
+#happy .happy-slider .predmet .devushka .img {
+  width: 20%;
+}
+#happy .happy-slider .predmet .devushka img {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 20%;
+}
+#happy .happy-slider .predmet .devushka h2 {
+  margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+#top-slider {
+  margin-top: 30px;
+}
+#top-slider .top-slider-all .brendler {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  border: 1px solid #e3e3e3;
+}
+#top-slider .top-slider-all .brendler img {
+  width: 40%;
+  margin: auto;
+}
+#top-slider .top-slider-all .brendler img:hover {
+  cursor: pointer;
+}
+
+#qeydiyyat {
+  margin-top: 40px;
+  padding: 50px 0;
+  background-color: #c0a483;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent {
+  gap: 30px;
+  align-items: center;
+  display: flex;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .ikonu i {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+  display: inline-block;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .qeydiyyat-yazi h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .qeydiyyat-yazi p {
+  font-size: 16px;
+  color: #fff;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input {
+  width: 100%;
+  height: 89px;
+  background-color: #fff;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input input {
+  border: none;
+  outline: none;
+  padding-left: 29px;
+  width: 74%;
+  padding: 14px;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input button {
+  text-align: center;
+  background-color: #2A2B2D;
+  border: none;
+  color: white;
+  width: 19%;
+  padding: 14px 24px;
+}
+
+footer #footer .pufik1 .pufik2 {
+  padding: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 h6 {
+  color: #000;
+  font-size: 16px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 p span {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik3 i {
+  color: #000;
+  border: 15px solid #fff;
+  border-radius: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik4 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik4 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik5 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik5 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik6 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik6 p a {
+  text-decoration: none;
+}/*# sourceMappingURL=about.css.map */

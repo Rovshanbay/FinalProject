@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#kontakt2 {
+    padding: 30px 0;
+
+    .contack2 {
+        display: flex;
+        justify-content: space-between;
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .logo {
+                width: 20%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            nav {
+                display: flex;
+                gap: 30px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Marcellus', serif;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .login-section {
+            display: flex;
+            gap: 20px;
+
+            .login {
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: 'Marcellus', serif;
+                    font-size: 16px;
+                }
+            }
+
+            .icon {
+                display: flex;
+                gap: 20px;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+#productdetail{
+    .detail-all{
+        display: flex;
+        padding: 50px 0;
+        .detail{
+            width: 60%;
+            .detail-photo{
+                width: 100%;
+                border: 1px solid #e1e1e1;
+                img{
+                    width: 100%;
+                }
+            }
+            .slider-detail{
+                margin-top: 40px;
+                .slider-photo{
+                    margin-right: 20px;
+                    border: 1px solid #e1e1e1;
+                    img{
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        .kantent-detail{
+            padding: 50px 0 50px 50px ;
+            .kantent-sehve{
+                a{
+                    font-size: 14px;
+                    color: #868686;
+                    letter-spacing: 1px;
+                    line-height: 24px;
+                    text-decoration: none;
+                }
+                span{
+                    font-size: 15px;
+                    color: #000;
+                }
+            }
+            .kantent-spektr{
+                i{
+                    color: red; 
+                }
+                a{
+                    text-decoration: none;
+                    color: #868686;
+                    font-size: 18px;
+                }
+            }
+            h1{
+                margin: 18px 0;
+                font-size: 40px;
+                color: #000;
+            }
+            .kantent-qiymet{
+                color: #c0a483;
+                font-size: 22px;
+            }
+            hr{
+                margin: 50px 0;
+            }
+            .larem{
+                font-size: 15.5px;
+                line-height: 1.60rem;
+                color: #868686;
+            }
+            #karzina{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                .spektr{
+                    display: flex;
+                    width: 20%;
+                    border: 2px solid gray;
+                    button{
+                        border: none;
+                        width: 50px;
+                        height: 46px;
+                        background: transparent;
+                        font-size: 25px;
+                        color: gray;
+                    }
+                    input{
+                        width: 100%;
+                        outline: none;
+                        border: none;
+                        height: auto;
+                        color: #868686;
+                        text-align: center;
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+                .addtocart{
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    background: #000;
+                    color: #fff;
+                    text-align: center;
+                    padding: 12px 130px;
+                    font-family: 'Marcellus',serif;
+                    &:hover{
+                        background: #c0a483;
+                    }
+                }
+                .like{
+                    width: 10%;
+                    text-align: center;
+                    i{
+                        border: 1px solid #e1e1e1;
+                        font-size: 20px;
+                        padding: 20px;
+                        color: gray;
+                        align-items: center;
+                        text-transform: uppercase;
+                       }
+                    }
+                }
+                .buy{
+                    border: none;
+                    width: 100%;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    background: #c0a483;
+                    color: #fff;
+                    text-align: center;
+                    padding: 15px 15px;
+                    &:hover{
+                        background: #b47935;
+                    }
+                }
+            }
+            .fut{
+                span{
+                    .innerspan{
+                        font-weight: 400;
+                        color: #000;
+                        display: inline;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-weight: 400;
+                        color: #000;
+                        &:hover{
+                            color: #ac8b66;
+                           }
+                        i{
+                           margin-left: 15px;
+                        }
+                    }
+                    display: block;
+                    width: 100%;
+                    color: #868686;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    
+}
+
+#visne2 {
+    padding: 40px;
+    margin-top: 1rem;
+
+    .slider-all {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .prodtext {
+            font-size: 24px;
+            h2 {
+                color: #000;
+                font-size: 28px;
+                font-family: Marcellus,serif;
+            }
+        }
+    }
+
+    .slider3 {
+        .box {
+            margin-right: 20px;
+
+            .caxirlar {
+                border: 1px solid #e3e3e3;
+                cursor: pointer;
+
+                &:hover {
+                    .bir {
+                        display: none;
+                    }
+
+                    .iki {
+                        display: block;
+                    }
+                }
+
+                .bir {
+                    display: block;
+                    width: 100%;
+                }
+
+                .iki {
+                    display: none;
+                    width: 100%;
+                }
+            }
+
+            .info {
+                text-align: center;
+
+                .altyazi {
+                    i {
+                        color: red;
+                    }
+
+                    span {
+                        color: #a3a3a3;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .price {
+                    .liner {
+                        text-decoration: line-through;
+                        color: #a3a3a3;
+                    }
+
+                    span {
+                        color: #c0a483;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    #footer{
+        .pufik1{
+            .pufik2{
+                padding: 30px;
+                .pufik3{
+                    h6{
+                        color: #000;
+                        font-size: 16px;
+                    }
+                    p{
+                        span{
+                            color: #000;
+                            font-weight: 500;
+                        }
+                    }
+                    i{
+                        color: #000;
+                        border: 15px solid #fff;
+                        border-radius: 30px;
+                    }
+                }
+                .pufik4{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .pufik5{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .pufik6{
+                    h6{
+                        color: #000;
+                        font-weight: 500;
+                    }
+                    p{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#button {
+    display: inline-block;
+    background-color: #c0a483;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    i{
+        text-align: center;
+        color: #fff;
+        margin: 17px 17px;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #c0a483;
+        &:active {
+            background-color: #c0a483;
+          }
+    }
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}

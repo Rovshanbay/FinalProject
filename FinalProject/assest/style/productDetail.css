@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#kontakt2 {
+  padding: 30px 0;
+}
+#kontakt2 .contack2 {
+  display: flex;
+  justify-content: space-between;
+}
+#kontakt2 .contack2 .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section .logo {
+  width: 20%;
+}
+#kontakt2 .contack2 .logo-section .logo img {
+  width: 100%;
+}
+#kontakt2 .contack2 .logo-section nav {
+  display: flex;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .login a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section .icon {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .icon i {
+  font-size: 20px;
+}
+
+#productdetail .detail-all {
+  display: flex;
+  padding: 50px 0;
+}
+#productdetail .detail-all .detail {
+  width: 60%;
+}
+#productdetail .detail-all .detail .detail-photo {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+}
+#productdetail .detail-all .detail .detail-photo img {
+  width: 100%;
+}
+#productdetail .detail-all .detail .slider-detail {
+  margin-top: 40px;
+}
+#productdetail .detail-all .detail .slider-detail .slider-photo {
+  margin-right: 20px;
+  border: 1px solid #e1e1e1;
+}
+#productdetail .detail-all .detail .slider-detail .slider-photo img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+#productdetail .detail-all .kantent-detail {
+  padding: 50px 0 50px 50px;
+}
+#productdetail .detail-all .kantent-detail .kantent-sehve a {
+  font-size: 14px;
+  color: #868686;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-decoration: none;
+}
+#productdetail .detail-all .kantent-detail .kantent-sehve span {
+  font-size: 15px;
+  color: #000;
+}
+#productdetail .detail-all .kantent-detail .kantent-spektr i {
+  color: red;
+}
+#productdetail .detail-all .kantent-detail .kantent-spektr a {
+  text-decoration: none;
+  color: #868686;
+  font-size: 18px;
+}
+#productdetail .detail-all .kantent-detail h1 {
+  margin: 18px 0;
+  font-size: 40px;
+  color: #000;
+}
+#productdetail .detail-all .kantent-detail .kantent-qiymet {
+  color: #c0a483;
+  font-size: 22px;
+}
+#productdetail .detail-all .kantent-detail hr {
+  margin: 50px 0;
+}
+#productdetail .detail-all .kantent-detail .larem {
+  font-size: 15.5px;
+  line-height: 1.6rem;
+  color: #868686;
+}
+#productdetail .detail-all .kantent-detail #karzina {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#productdetail .detail-all .kantent-detail #karzina .spektr {
+  display: flex;
+  width: 20%;
+  border: 2px solid gray;
+}
+#productdetail .detail-all .kantent-detail #karzina .spektr button {
+  border: none;
+  width: 50px;
+  height: 46px;
+  background: transparent;
+  font-size: 25px;
+  color: gray;
+}
+#productdetail .detail-all .kantent-detail #karzina .spektr input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: auto;
+  color: #868686;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+#productdetail .detail-all .kantent-detail #karzina .addtocart {
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 12px 130px;
+  font-family: "Marcellus", serif;
+}
+#productdetail .detail-all .kantent-detail #karzina .addtocart:hover {
+  background: #c0a483;
+}
+#productdetail .detail-all .kantent-detail #karzina .like {
+  width: 10%;
+  text-align: center;
+}
+#productdetail .detail-all .kantent-detail #karzina .like i {
+  border: 1px solid #e1e1e1;
+  font-size: 20px;
+  padding: 20px;
+  color: gray;
+  align-items: center;
+  text-transform: uppercase;
+}
+#productdetail .detail-all .kantent-detail .buy {
+  border: none;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #c0a483;
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+}
+#productdetail .detail-all .kantent-detail .buy:hover {
+  background: #b47935;
+}
+#productdetail .detail-all .fut span {
+  display: block;
+  width: 100%;
+  color: #868686;
+  margin-bottom: 20px;
+}
+#productdetail .detail-all .fut span .innerspan {
+  font-weight: 400;
+  color: #000;
+  display: inline;
+}
+#productdetail .detail-all .fut span a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #000;
+}
+#productdetail .detail-all .fut span a:hover {
+  color: #ac8b66;
+}
+#productdetail .detail-all .fut span a i {
+  margin-left: 15px;
+}
+
+#visne2 {
+  padding: 40px;
+  margin-top: 1rem;
+}
+#visne2 .slider-all {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#visne2 .slider-all .prodtext {
+  font-size: 24px;
+}
+#visne2 .slider-all .prodtext h2 {
+  color: #000;
+  font-size: 28px;
+  font-family: Marcellus, serif;
+}
+#visne2 .slider3 .box {
+  margin-right: 20px;
+}
+#visne2 .slider3 .box .caxirlar {
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+#visne2 .slider3 .box .caxirlar:hover .bir {
+  display: none;
+}
+#visne2 .slider3 .box .caxirlar:hover .iki {
+  display: block;
+}
+#visne2 .slider3 .box .caxirlar .bir {
+  display: block;
+  width: 100%;
+}
+#visne2 .slider3 .box .caxirlar .iki {
+  display: none;
+  width: 100%;
+}
+#visne2 .slider3 .box .info {
+  text-align: center;
+}
+#visne2 .slider3 .box .info .altyazi i {
+  color: red;
+}
+#visne2 .slider3 .box .info .altyazi span {
+  color: #a3a3a3;
+}
+#visne2 .slider3 .box .info a {
+  text-decoration: none;
+  color: black;
+}
+#visne2 .slider3 .box .info .price .liner {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+#visne2 .slider3 .box .info .price span {
+  color: #c0a483;
+}
+
+footer #footer .pufik1 .pufik2 {
+  padding: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 h6 {
+  color: #000;
+  font-size: 16px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 p span {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik3 i {
+  color: #000;
+  border: 15px solid #fff;
+  border-radius: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik4 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik4 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik5 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik5 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik6 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik6 p a {
+  text-decoration: none;
+}
+
+#button {
+  display: inline-block;
+  background-color: #c0a483;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button i {
+  text-align: center;
+  color: #fff;
+  margin: 17px 17px;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #c0a483;
+}
+#button:hover:active {
+  background-color: #c0a483;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=productDetail.css.map */

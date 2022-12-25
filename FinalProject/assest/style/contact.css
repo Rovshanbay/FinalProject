@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#kontakt2 {
+  padding: 30px 0;
+}
+#kontakt2 .contack2 {
+  display: flex;
+  justify-content: space-between;
+}
+#kontakt2 .contack2 .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section .logo {
+  width: 20%;
+}
+#kontakt2 .contack2 .logo-section .logo img {
+  width: 100%;
+}
+#kontakt2 .contack2 .logo-section nav {
+  display: flex;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .login a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section .icon {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .icon i {
+  font-size: 20px;
+}
+
+#servis .servis-all .serviskantent {
+  margin-top: 60px;
+}
+#servis .servis-all .serviskantent .kantent h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+#servis .servis-all .serviskantent .kantent p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #868686;
+  text-align: left;
+  display: inline-block;
+  margin: 0 0 40px;
+  width: 85%;
+}
+#servis .servis-all .serviskantent .bottomkantent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#servis .servis-all .serviskantent .bottomkantent .showinfo {
+  display: flex;
+  gap: 20px;
+}
+#servis .servis-all .serviskantent .bottomkantent .showinfo .info {
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  display: inline-block;
+}
+#servis .servis-all .serviskantent .bottomkantent .showinfo .info svg {
+  width: 1em;
+  height: 1em;
+  font-size: 30px;
+}
+#servis .servis-all .serviskantent .bottomkantent .showinfo .info-content span {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#servis .servis-all .serviskantent .bottomkantent .showinfo .info-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #868686;
+}
+#servis .servis-all .mesaj {
+  transform: translateY(-100px);
+  background-color: #2A2B2D;
+  padding: 100px;
+  max-width: 100%;
+}
+#servis .servis-all .mesaj .mesaj-content {
+  margin-bottom: 30px;
+  text-align: center;
+}
+#servis .servis-all .mesaj .mesaj-content svg {
+  fill: #FFFFFF;
+  width: 1em;
+  height: 1em;
+  display: block;
+  font-size: 55px;
+  margin: auto;
+}
+#servis .servis-all .mesaj .mesaj-content h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#servis .servis-all .mesaj .mesaj-input .info-input {
+  display: flex;
+  gap: 10px;
+}
+#servis .servis-all .mesaj .mesaj-input .info-input input {
+  width: 100%;
+  height: 50px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #3a3a3a;
+  background: transparent;
+}
+#servis .servis-all .mesaj .mesaj-input textarea {
+  width: 100%;
+  color: #fff;
+  max-height: 260px;
+  padding: 10px 20px;
+  font-weight: 400;
+  margin-bottom: 23px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #3a3a3a;
+}
+#servis .servis-all .mesaj .mesaj-input button {
+  width: 100%;
+  height: 70px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  background-color: #6F6E6C;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+#servis .servis-all .mesaj .mesaj-input button:hover {
+  background-color: #c0a483;
+}
+
+#qeydiyyat {
+  padding: 50px 0;
+  background-color: #2A2B2D;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent {
+  gap: 30px;
+  align-items: center;
+  display: flex;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .ikonu i {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+  display: inline-block;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .qeydiyyat-yazi h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-kantent .qeydiyyat-yazi p {
+  font-size: 16px;
+  color: #fff;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input {
+  width: 100%;
+  height: 89px;
+  background-color: #fff;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input input {
+  border: none;
+  outline: none;
+  padding-left: 29px;
+  width: 74%;
+  padding: 14px;
+}
+#qeydiyyat .qeydiyyat-all .qeydiyyat-input button {
+  text-align: center;
+  background-color: #ac8b66;
+  border: none;
+  color: white;
+  width: 19%;
+  padding: 14px 24px;
+}
+
+footer #footer .pufik1 .pufik2 {
+  padding: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 h6 {
+  color: #000;
+  font-size: 16px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 p span {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik3 i {
+  color: #000;
+  border: 15px solid #fff;
+  border-radius: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik4 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik4 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik5 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik5 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik6 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik6 p a {
+  text-decoration: none;
+}
+
+#button {
+  display: inline-block;
+  background-color: #c0a483;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button i {
+  text-align: center;
+  color: #fff;
+  margin: 17px 17px;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #c0a483;
+}
+#button:hover:active {
+  background-color: #c0a483;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=contact.css.map */

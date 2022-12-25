@@ -1,0 +1,640 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#kontakt {
+  padding: 20px 0;
+}
+#kontakt .contact {
+  display: flex;
+  justify-content: space-between;
+}
+#kontakt .contact .elaqe {
+  display: flex;
+  gap: 20px;
+}
+#kontakt .contact .elaqe .phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#kontakt .contact .elaqe .phone a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#kontakt .contact .elaqe .email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#kontakt .contact .elaqe .email a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#kontakt .contact .sosialsebeke {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#kontakt .contact .sosialsebeke i {
+  font-size: 18px;
+}
+
+#kontakt2 {
+  padding: 30px 0;
+}
+#kontakt2 .contack2 {
+  display: flex;
+  justify-content: space-between;
+}
+#kontakt2 .contack2 .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section .logo {
+  width: 20%;
+}
+#kontakt2 .contack2 .logo-section .logo img {
+  width: 100%;
+}
+#kontakt2 .contack2 .logo-section nav {
+  display: flex;
+  gap: 30px;
+}
+#kontakt2 .contack2 .logo-section nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .login a {
+  text-decoration: none;
+  color: black;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+}
+#kontakt2 .contack2 .login-section .icon {
+  display: flex;
+  gap: 20px;
+}
+#kontakt2 .contack2 .login-section .icon i {
+  font-size: 20px;
+}
+
+#slidersection .slider .green {
+  background-image: url(/assest/photos/slider\ shekil1.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  overflow: hidden;
+  position: relative;
+}
+#slidersection .slider .green .greencontent {
+  overflow: hidden;
+  text-align: center;
+}
+#slidersection .slider .green .greencontent h2 {
+  font-family: "Marcellus", serif;
+  font-size: 60px;
+  color: #fff;
+}
+#slidersection .slider .green .greencontent p {
+  font-family: "Marcellus", serif;
+  font-size: 20px;
+  color: #fff;
+}
+#slidersection .slider .green .greencontent a {
+  text-decoration: none;
+  font-family: "Marcellus", serif;
+  font-size: 15px;
+  color: #fff;
+  padding: 12px 40px;
+  border: 2px solid white;
+  display: inline-block;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+#slidersection .slider .green .greencontent a:hover {
+  background-color: #c0a483;
+  border-color: #c0a483;
+}
+#slidersection .slider .green .henkel {
+  position: absolute;
+  display: inline-block;
+  top: 18%;
+  left: 0;
+}
+#slidersection .slider .green .glass {
+  position: absolute;
+  bottom: 40px;
+  right: 20%;
+  z-index: 22;
+}
+#slidersection .slider .green .chapellet {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  z-index: 22;
+}
+#slidersection .slider .wine {
+  background-image: url(/assest/photos/slider\ shekil2.jpeg.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  overflow: hidden;
+  position: relative;
+}
+#slidersection .slider .wine .winecontent {
+  text-align: center;
+  overflow: hidden;
+}
+#slidersection .slider .wine .winecontent h2 {
+  font-family: "Marcellus", serif;
+  font-size: 60px;
+  color: #fff;
+}
+#slidersection .slider .wine .winecontent p {
+  font-family: "Marcellus", serif;
+  font-size: 20px;
+  color: #fff;
+}
+#slidersection .slider .wine .winecontent a {
+  text-decoration: none;
+  font-family: "Marcellus", serif;
+  font-size: 15px;
+  color: #fff;
+  padding: 12px 40px;
+  border: 2px solid white;
+  display: inline-block;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+#slidersection .slider .wine .winecontent a:hover {
+  background-color: #c0a483;
+  border-color: #c0a483;
+}
+#slidersection .slider .wine .vino {
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  width: 7%;
+}
+#slidersection .slider .wine .vino2 {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+  width: 12%;
+}
+#slidersection .slider .wine .vino3 {
+  position: absolute;
+  right: 9%;
+  bottom: 8%;
+}
+
+.slick-next {
+  right: 30px;
+}
+
+.slick-prev {
+  left: 30px;
+  z-index: 1;
+}
+
+#category {
+  padding: 20px;
+}
+#category .shop {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+#category .shop p {
+  font-size: 24px;
+  text-align: center;
+}
+#category .shop p span {
+  color: #c0a483;
+}
+
+#caxir .card img {
+  position: relative;
+  transition: 0.5s;
+}
+#caxir .card img:hover {
+  transition: 0.5s;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+#caxir .card .text1 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  color: #000;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+  font-family: "Marcellus", serif;
+  font-size: 14px;
+  background: #fff;
+}
+
+#visne {
+  background-image: url(/assest/photos/uzum.webp);
+  padding: 40px;
+  margin-top: 5rem;
+}
+#visne .slider-all {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#visne .slider-all .prodtext {
+  font-size: 24px;
+}
+#visne .slider-all .prodtext p {
+  color: #000;
+}
+#visne .slider-all .prodtext span {
+  color: #c0a483;
+}
+#visne .slider2 .box {
+  margin-right: 20px;
+}
+#visne .slider2 .box .caxirlar {
+  cursor: pointer;
+}
+#visne .slider2 .box .caxirlar:hover .bir {
+  display: none;
+}
+#visne .slider2 .box .caxirlar:hover .iki {
+  display: block;
+}
+#visne .slider2 .box .caxirlar .bir {
+  display: block;
+  width: 100%;
+}
+#visne .slider2 .box .caxirlar .iki {
+  display: none;
+  width: 100%;
+}
+#visne .slider2 .box .info {
+  text-align: center;
+}
+#visne .slider2 .box .info .altyazi i {
+  color: red;
+}
+#visne .slider2 .box .info .altyazi span {
+  color: #a3a3a3;
+}
+#visne .slider2 .box .info a {
+  text-decoration: none;
+  color: black;
+}
+#visne .slider2 .box .info .price .liner {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+#visne .slider2 .box .info .price span {
+  color: #c0a483;
+}
+
+#section3 {
+  margin-top: 45px;
+}
+#section3 .section-all {
+  background-image: url(/assest/photos/banner8.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 2.5rem;
+}
+#section3 .section-all .endirim {
+  text-align: center;
+}
+#section3 .section-all .endirim .wines {
+  font-size: 34px;
+}
+#section3 .section-all .endirim .wines p {
+  color: #fff;
+}
+#section3 .section-all .endirim .wines span {
+  color: #c0a483;
+}
+#section3 .section-all .endirim .button a {
+  background-color: #a12626;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 30px;
+  border-radius: 5px;
+}
+#section3 .section-all .endirim .button a:hover {
+  background-color: #c0a483;
+  padding: 7px 30px;
+}
+
+#visne2 {
+  padding: 40px;
+  margin-top: 1rem;
+}
+#visne2 .slider-all {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#visne2 .slider-all .prodtext {
+  font-size: 24px;
+}
+#visne2 .slider-all .prodtext p {
+  color: #000;
+}
+#visne2 .slider-all .prodtext span {
+  color: #c0a483;
+}
+#visne2 .slider3 .box {
+  margin-right: 20px;
+}
+#visne2 .slider3 .box .caxirlar {
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+#visne2 .slider3 .box .caxirlar:hover .bir {
+  display: none;
+}
+#visne2 .slider3 .box .caxirlar:hover .iki {
+  display: block;
+}
+#visne2 .slider3 .box .caxirlar .bir {
+  display: block;
+  width: 100%;
+}
+#visne2 .slider3 .box .caxirlar .iki {
+  display: none;
+  width: 100%;
+}
+#visne2 .slider3 .box .info {
+  text-align: center;
+}
+#visne2 .slider3 .box .info .altyazi i {
+  color: red;
+}
+#visne2 .slider3 .box .info .altyazi span {
+  color: #a3a3a3;
+}
+#visne2 .slider3 .box .info a {
+  text-decoration: none;
+  color: black;
+}
+#visne2 .slider3 .box .info .price .liner {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+#visne2 .slider3 .box .info .price span {
+  color: #c0a483;
+}
+
+#qirmizibox .box-all {
+  text-align: center;
+  padding: 100px 0 50px;
+  background-color: #882424;
+}
+#qirmizibox .box-all .box {
+  margin: 20px 0;
+}
+#qirmizibox .box-all .box .qirmizi-yazi {
+  margin-top: 40px;
+  line-height: 30px;
+}
+#qirmizibox .box-all .box .qirmizi-yazi span {
+  font-family: "Marcellus", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+#qirmizibox .box-all .box .qirmizi-yazi p {
+  color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+#qirmizibox .box-all .box .svg {
+  display: inline;
+  border: 1px solid white;
+  font-size: 42px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 50%;
+  fill: white;
+}
+
+#visne3 {
+  padding: 40px;
+  margin-top: 1rem;
+}
+#visne3 .slider-all {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#visne3 .slider-all .prodtext {
+  font-size: 24px;
+}
+#visne3 .slider-all .prodtext p {
+  color: #000;
+}
+#visne3 .slider-all .prodtext span {
+  color: #c0a483;
+}
+#visne3 .slider4 .box {
+  margin-right: 20px;
+}
+#visne3 .slider4 .box .caxirlar {
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+#visne3 .slider4 .box .caxirlar:hover .bir {
+  display: none;
+}
+#visne3 .slider4 .box .caxirlar:hover .iki {
+  display: block;
+}
+#visne3 .slider4 .box .caxirlar .bir {
+  display: block;
+  width: 100%;
+}
+#visne3 .slider4 .box .caxirlar .iki {
+  display: none;
+  width: 100%;
+}
+#visne3 .slider4 .box .info {
+  text-align: center;
+}
+#visne3 .slider4 .box .info .altyazi i {
+  color: red;
+}
+#visne3 .slider4 .box .info .altyazi span {
+  color: #a3a3a3;
+}
+#visne3 .slider4 .box .info a {
+  text-decoration: none;
+  color: black;
+}
+#visne3 .slider4 .box .info .price .liner {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+#visne3 .slider4 .box .info .price span {
+  color: #c0a483;
+}
+
+#elektron .elektron-all {
+  background-image: url(/assest/photos/OUR\ NEWLETTER.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  overflow: hidden;
+  position: relative;
+}
+#elektron .elektron-all .letter {
+  text-align: center;
+}
+#elektron .elektron-all .letter i {
+  color: #fff;
+  font-size: 52px;
+}
+#elektron .elektron-all .letter h2 {
+  color: #fff;
+}
+#elektron .elektron-all .letter p {
+  color: #fff;
+}
+#elektron .elektron-all .poct {
+  text-align: center;
+  display: block;
+}
+#elektron .elektron-all .poct input {
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  width: 25%;
+  margin: 30px;
+}
+#elektron .elektron-all .poct button {
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  border: 0;
+  width: 5%;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+#elektron .elektron-all .poct button:hover {
+  color: #c0a483;
+  border-bottom: 2px solid #c0a483;
+}
+
+#brand {
+  margin-top: 40px;
+}
+#brand .top p {
+  font-size: 24px;
+  text-align: center;
+}
+#brand .top span {
+  color: #c0a483;
+}
+
+#top-slider .top-slider-all .brendler {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  border: 1px solid #e3e3e3;
+}
+#top-slider .top-slider-all .brendler img {
+  width: 40%;
+  margin: auto;
+}
+#top-slider .top-slider-all .brendler img:hover {
+  cursor: pointer;
+}
+
+footer #footer .pufik1 .pufik2 {
+  padding: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 h6 {
+  color: #000;
+  font-size: 16px;
+}
+footer #footer .pufik1 .pufik2 .pufik3 p span {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik3 i {
+  color: #000;
+  border: 15px solid #fff;
+  border-radius: 30px;
+}
+footer #footer .pufik1 .pufik2 .pufik4 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik4 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik5 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik5 p a {
+  text-decoration: none;
+}
+footer #footer .pufik1 .pufik2 .pufik6 h6 {
+  color: #000;
+  font-weight: 500;
+}
+footer #footer .pufik1 .pufik2 .pufik6 p a {
+  text-decoration: none;
+}
+
+#button {
+  display: inline-block;
+  background-color: #c0a483;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button i {
+  text-align: center;
+  color: #fff;
+  margin: 17px 17px;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #c0a483;
+}
+#button:hover:active {
+  background-color: #c0a483;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */
